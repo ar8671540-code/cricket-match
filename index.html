@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cricket Score Dashboard</title>
+	<link rel='stylesheet' href="style.css">
+	
+	
+</head>
+
+<body>
+	
+ 
+
+<div class="dashboard">
+    <h1>Live Cricket Score</h1>
+    <div class="score-card">
+        <h2 id="team">India</h2>
+        <div class="score">
+            <span id="runs">0</span> /
+            <span id="wickets">0</span>
+        </div>
+        <p>Overs: <span id="overs">0.0</span></p>
+    </div>
+
+    <div class="buttons">
+        <button onclick="addRun(1)">+1</button>
+        <button onclick="addRun(2)">+2</button>
+        <button onclick="addRun(3)">+3</button>
+        <button onclick="addRun(4)">+4</button>
+        <button onclick="addRun(6)">+6</button>
+        <button onclick="addWicket()">Add Wicket</button>
+        <button onclick="reduceWicket()">Reduce Wicket</button>
+    </div>
+
+    <button class="reset" onclick="resetMatch()">Reset Match</button>
+</div>
+
+<!-- LINK JAVASCRIPT -->
+<script src="script.js"></script>
+</body>
+</html>
