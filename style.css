@@ -55,6 +55,7 @@ button {
     cursor: pointer;
     background: #2563eb;
     color: white;
+    touch-action: manipulation; /* Improves touch response */
 }
 
 button:active {
@@ -67,7 +68,7 @@ button:active {
     background: #dc2626;
 }
 
-/* ===== 📱 Mobile Version ===== */
+/* ===== ðŸ“± Mobile Version ===== */
 @media (max-width: 600px) {
 
     body {
